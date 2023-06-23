@@ -1,4 +1,5 @@
 def check_string(string):
+    string = string.lower()
     string = string.replace(' ', '')
     if len(string) % 2 == 0:
         string_length = int(len(string) / 2)
@@ -8,3 +9,5 @@ def check_string(string):
             return False
     else:
         return False
+
+print(check_string('Лепс спел'))
