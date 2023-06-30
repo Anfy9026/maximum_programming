@@ -1,0 +1,17 @@
+h1 {
+    background-color: red;
+}
+
+.paragraph-1 {
+    background-color: blue;
+    font-size: 32pt;
+    color: forestgreen;
+}
+
+.paragraph-2 {
+    border: 10px solid yellow;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
